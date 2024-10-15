@@ -83,7 +83,6 @@ def main(page: ft.Page):
             alignment=ft.MainAxisAlignment.START,
         )
     )
-
-if __name__ == "__main__":
+def view_file():
     ft.app(target=main)
-print( file_content)
+    return file_content
